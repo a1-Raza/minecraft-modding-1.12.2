@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fm",
+  "name": "First Mod",
+  "description": "my first mod.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["X_Blocks1"],
+  "credits": "TechnoVision's 1.12.2 Modding Tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

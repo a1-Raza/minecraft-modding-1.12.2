@@ -1,0 +1,6 @@
+//Items
+item.ender_ingot.name=Ender Ingot
+item.ender_sword.name=Ender Sword
+
+//Blocks
+tile.rigid_endstone.name=Rigid Endstone
