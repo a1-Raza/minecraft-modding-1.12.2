@@ -1,0 +1,50 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "fm:ender_ingot"
+    },
+
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    },
+    
+    {
+      "item": "fm:ender_ingot"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "fm:rigid_endstone",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " E ",
+        " E ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "E":
+        {
+            "item": "fm:ender_ingot"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fm:ender_sword",
+        "count": 1
+    }
+}

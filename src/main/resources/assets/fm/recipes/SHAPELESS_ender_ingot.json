@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "fm:rigid_endstone"
+    }
+
+    ],
+
+    "result": 
+    {
+        "item": "fm:ender_ingot",
+        "count": 9
+    }
+}
