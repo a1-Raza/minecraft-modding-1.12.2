@@ -1,5 +1,6 @@
 package X_Blocks1.firstmod;
 
+import X_Blocks1.firstmod.init.ModRecipes;
 import X_Blocks1.firstmod.proxy.CommonProxy;
 import X_Blocks1.firstmod.util.Reference;
 
@@ -30,7 +31,7 @@ public class Main {
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler
