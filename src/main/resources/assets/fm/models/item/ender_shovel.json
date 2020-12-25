@@ -1,6 +1,6 @@
 {
    "parent": "item/handheld",
    "textures": {
-       "layer0": "fm:items/ender_sword"
+       "layer0": "fm:items/ender_shovel"
    }
 }

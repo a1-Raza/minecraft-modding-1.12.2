@@ -1,7 +1,14 @@
 //Items
 item.ender_ingot.name=Ender Ingot
-item.ender_sword.name=Ender Sword
+
 
 //Blocks
 tile.rigid_endstone.name=Rigid Endstone
 tile.ender_ore.name=Ender Ore
+
+//Tools
+item.ender_sword.name=Ender Sword
+item.ender_shovel.name=Ender Shovel
+item.ender_pickaxe.name=Ender Pickaxe
+item.ender_axe.name=Ender Axe
+item.ender_hoe.name=Ender Hoe
