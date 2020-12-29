@@ -1,27 +1,28 @@
-package X_Blocks1.firstmod.items.tools;
+package X_Blocks1.firstmod.items.food;
 
 import X_Blocks1.firstmod.Main;
 import X_Blocks1.firstmod.init.ModItems;
 import X_Blocks1.firstmod.util.IHasModel;
-
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemFood;
 
-public class ToolPickaxe extends ItemPickaxe implements IHasModel 
+public class FoodBase extends ItemFood implements IHasModel
 {
-	public ToolPickaxe(String name, ToolMaterial material)
+	
+	public FoodBase(String name, int amount, float saturation, boolean isAnimalFood)
 	{
-		super(material);
+		super(amount, saturation, isAnimalFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(CreativeTabs.FOOD);
 		
 		ModItems.ITEMS.add(this);
 	}
 
 	@Override
-	public void registerModels()
+	public void registerModels() 
 	{
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
+	
 }

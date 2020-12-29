@@ -5,12 +5,15 @@ import java.util.List;
 
 import X_Blocks1.firstmod.items.ItemBase;
 import X_Blocks1.firstmod.items.armor.ArmorBase;
+import X_Blocks1.firstmod.items.food.FoodBase;
+import X_Blocks1.firstmod.items.food.FoodEffectBase;
 import X_Blocks1.firstmod.items.tools.ToolAxe;
 import X_Blocks1.firstmod.items.tools.ToolHoe;
 import X_Blocks1.firstmod.items.tools.ToolPickaxe;
 import X_Blocks1.firstmod.items.tools.ToolSpade;
 import X_Blocks1.firstmod.items.tools.ToolSword;
 import X_Blocks1.firstmod.util.Reference;
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -21,6 +24,7 @@ import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems
@@ -47,4 +51,8 @@ public class ModItems
 	public static final Item ENDER_CHESTPLATE = new ArmorBase("ender_chestplate", ARMOR_MATERIAL_ENDER_INGOT, 1, EntityEquipmentSlot.CHEST);
 	public static final Item ENDER_LEGGINGS = new ArmorBase("ender_leggings", ARMOR_MATERIAL_ENDER_INGOT, 2, EntityEquipmentSlot.LEGS);
 	public static final Item ENDER_BOOTS = new ArmorBase("ender_boots", ARMOR_MATERIAL_ENDER_INGOT, 1, EntityEquipmentSlot.FEET);
+	
+	//Food (Consumables)
+	//public static final Item ENDER_HEART = new FoodBase("ender_heart", 8, 8.0F, true);
+	public static final Item ENDER_HEART = new FoodEffectBase("ender_heart", 9, 8.0F, true, new PotionEffect(MobEffects.NAUSEA, (60*20), 2, false, true));
 }
