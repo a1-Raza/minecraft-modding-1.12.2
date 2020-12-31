@@ -33,11 +33,14 @@ public class ModWorldGen implements IWorldGenerator
 		if (world.provider.getDimension() == 0)
 		{
 			//generateOverworld(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
+<<<<<<< HEAD
 			//generateEnd(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
 		}
 		
 		if (world.provider.getDimension() == 1)
 		{
+=======
+>>>>>>> 5e524f0 (WIP10.0: created WorldGenEndMinable class in attempt to get ender ore to generate in the end)
 			generateEnd(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
 		}
 		*/
@@ -80,7 +83,6 @@ public class ModWorldGen implements IWorldGenerator
 			//WorldGenEndMinable generator = new WorldGenEndMinable(ore, size);
 			WorldGenMinable endGenerator = new WorldGenMinable(ore, size, BlockMatcher.forBlock(Blocks.END_STONE));
 			endGenerator.generate(world, random, pos);
-			
 		}
 	}
 	
