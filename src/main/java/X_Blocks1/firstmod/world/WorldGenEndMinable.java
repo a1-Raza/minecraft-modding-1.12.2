@@ -19,7 +19,7 @@ public class WorldGenEndMinable extends WorldGenerator
 
     public WorldGenEndMinable(IBlockState state, int blockCount)
     {
-        this(state, blockCount, new WorldGenEndMinable.EndstonePredicate());
+        this(state, blockCount, new WorldGenEndMinable.StonePredicate());
     }
 
     public WorldGenEndMinable(IBlockState state, int blockCount, Predicate<IBlockState> p_i45631_3_)
@@ -91,9 +91,9 @@ public class WorldGenEndMinable extends WorldGenerator
         return true;
     }
 
-    static class EndstonePredicate implements Predicate<IBlockState>
+    static class StonePredicate implements Predicate<IBlockState>
         {
-            private EndstonePredicate()
+            private StonePredicate()
             {
             }
 
