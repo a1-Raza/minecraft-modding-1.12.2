@@ -34,13 +34,19 @@ public class ModWorldGen implements IWorldGenerator
 		{
 			//generateOverworld(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7e6e968 (WIP10.2: finally figured out how to get ore gen to work in the end (WIP10.1 was 2nd attempt, this is 3rd))
 			//generateEnd(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
 		}
 		
 		if (world.provider.getDimension() == 1)
 		{
+<<<<<<< HEAD
 =======
 >>>>>>> 5e524f0 (WIP10.0: created WorldGenEndMinable class in attempt to get ender ore to generate in the end)
+=======
+>>>>>>> 7e6e968 (WIP10.2: finally figured out how to get ore gen to work in the end (WIP10.1 was 2nd attempt, this is 3rd))
 			generateEnd(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
 		}
 		*/

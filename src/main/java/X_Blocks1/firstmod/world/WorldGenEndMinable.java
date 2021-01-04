@@ -91,7 +91,6 @@ public class WorldGenEndMinable extends WorldGenerator
         return true;
     }
 
-
     static class StonePredicate implements Predicate<IBlockState>
         {
             private StonePredicate()
