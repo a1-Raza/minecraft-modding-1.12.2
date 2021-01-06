@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import X_Blocks1.firstmod.blocks.BlockBase;
+import X_Blocks1.firstmod.blocks.EndFrameRuins;
 import X_Blocks1.firstmod.blocks.EnderOre;
 import X_Blocks1.firstmod.blocks.RigidEndstone;
 import net.minecraft.block.Block;
@@ -17,5 +18,7 @@ public class ModBlocks
 	public static final Block RIGID_ENDSTONE = new RigidEndstone("rigid_endstone", Material.IRON);
 	
 	public static final Block ENDER_ORE = new EnderOre("ender_ore", Material.ROCK);
+	
+	public static final Block END_FRAME_RUINS = new EndFrameRuins("end_frame_ruins", Material.ROCK);
 	
 }
