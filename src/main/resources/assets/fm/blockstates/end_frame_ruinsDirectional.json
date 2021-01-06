@@ -6,3 +6,10 @@
         "facing=east": { "model": "fm:end_frame_ruins", "y": 270 }
     }
 }
+
+
+{
+    "variants": {
+        "normal": { "model": "fm:end_frame_ruins" }
+    }
+}

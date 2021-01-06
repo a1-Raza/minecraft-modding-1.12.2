@@ -4,26 +4,31 @@
     "pattern":
     [
         " E ",
-        " E ",
-        " S "
+        "IFI",
+        " I "
     ],
     
     "key":
     {
         "E":
         {
-            "item": "fm:ender_ingot"
+            "item": "minecraft:ender_eye"
         },
         
-        "S":
+        "F":
         {
-            "item": "minecraft:stick"
+            "item": "fm:end_frame_ruins"
+        },
+        
+        "I":
+        {
+            "item": "fm:ender_ingot"
         }
     },
     
     "result":
     {
-        "item": "fm:ender_sword",
+        "item": "minecraft:end_portal_frame",
         "count": 1
     }
 }
