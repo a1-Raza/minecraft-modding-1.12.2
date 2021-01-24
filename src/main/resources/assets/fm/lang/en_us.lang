@@ -5,6 +5,7 @@ item.ender_ingot.name=Ender Ingot
 //Blocks
 tile.rigid_endstone.name=Rigid Endstone
 tile.ender_ore.name=Ender Ore
+tile.end_frame_ruins.name=End Frame Ruins
 
 //Tools
 item.ender_sword.name=Ender Sword

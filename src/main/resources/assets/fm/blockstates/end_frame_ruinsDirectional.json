@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "facing=south": { "model": "fm:end_frame_ruins" },
+        "facing=west": { "model": "fm:end_frame_ruins", "y": 90 },
+        "facing=north": { "model": "fm:end_frame_ruins", "y": 180 },
+        "facing=east": { "model": "fm:end_frame_ruins", "y": 270 }
+    }
+}
+
+
+{
+    "variants": {
+        "normal": { "model": "fm:end_frame_ruins" }
+    }
+}

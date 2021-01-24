@@ -3,12 +3,14 @@ package X_Blocks1.firstmod.util.handlers;
 import X_Blocks1.firstmod.init.ModBlocks;
 import X_Blocks1.firstmod.init.ModItems;
 import X_Blocks1.firstmod.util.IHasModel;
+import X_Blocks1.firstmod.world.ModWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler
@@ -43,5 +45,10 @@ public class RegistryHandler
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void Common()
+	{
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
 	}
 }
