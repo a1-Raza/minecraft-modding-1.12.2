@@ -1,6 +1,11 @@
+//Creative Tab
+itemGroup.modtab=Revamped End Mod
+
 //Items
 item.ender_ingot.name=Ender Ingot
 
+//Entities
+entity.sick_enderman.name=Sick Enderman
 
 //Blocks
 tile.rigid_endstone.name=Rigid Endstone

@@ -27,7 +27,7 @@ public class BlockDirectional extends BlockHorizontal implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS); 
+		setCreativeTab(Main.modtab); 
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

@@ -33,9 +33,6 @@ public class EndFrameRuins extends BlockDirectional
 	public EndFrameRuins(String name, Material material) 
 	{
 		super(name, material);
-		
-		setCreativeTab(CreativeTabs.DECORATIONS);
-		
 		setSoundType(SoundType.GLASS);
 		setHardness(5.0F);
 		setResistance(100.0F);

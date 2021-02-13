@@ -1,6 +1,7 @@
 package X_Blocks1.firstmod.util.handlers;
 
 import X_Blocks1.firstmod.init.ModBlocks;
+import X_Blocks1.firstmod.init.ModEntities;
 import X_Blocks1.firstmod.init.ModItems;
 import X_Blocks1.firstmod.util.IHasModel;
 import X_Blocks1.firstmod.world.ModWorldGen;
@@ -47,8 +48,16 @@ public class RegistryHandler
 		}
 	}
 	
-	public static void Common()
+	/*public static void preInitRegistries()
+	{
+		
+	}*/
+	
+	public static void preInitRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+		
+		ModEntities.registerEntities();
+		RenderHandler.registerEntityRenders();
 	}
 }
